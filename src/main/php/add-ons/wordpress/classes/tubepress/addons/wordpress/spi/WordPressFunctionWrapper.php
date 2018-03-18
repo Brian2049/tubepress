@@ -210,7 +210,7 @@ interface tubepress_addons_wordpress_spi_WordPressFunctionWrapper
      *
      * @return string addons url link with optional path appended.
      */
-    function plugins_url($path, $path);
+    function plugins_url($path, $plugin);
 
     /**
      * The register_activation_hook function registers a plugin function to be run when the plugin is activated.
